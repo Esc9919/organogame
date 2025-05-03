@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #0f022b;
+  --secondary-color: #14003e;
+  --tertiary-color: #33046c;
+  --text-color: #e560b3;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +21,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient( var(--primary-color), var(--secondary-color), var(--tertiary-color));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
