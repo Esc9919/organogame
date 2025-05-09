@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #0f022b;
+    --secondary-color: #14003e;
+    --tertiary-color: #33046c;
+    --text-color: #e560b3;
+  }
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+.formulario form {
+    max-width: 80%;
+    background-color: var(--tertiary-color);
+    color: var(--text-color);
+    padding: 2.5rem 4rem;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.6);
+}
+
+.formulario button {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+}
