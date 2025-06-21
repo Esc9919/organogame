@@ -1,9 +1,10 @@
 import './Genero.css';
 
 const Genero = (props)=> {
+    const css = { backgroundColor: props.corSecundaria }
     return (
-        <section className='genero'>
-            <h3>{props.nome}</h3>
+        <section className='genero' style={css}>
+            <h3 style={{borderColor: props.corPrimaria}}>{props.nome}</h3>
         </section>
     )
 }

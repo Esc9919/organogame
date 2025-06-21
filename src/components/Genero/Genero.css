@@ -9,13 +9,12 @@
 .genero {
     text-align: center;
     padding: 2rem;
-    background-color: var(--tertiary-color);
 }
 
 .genero h3 {
     color: var(--text-color);
     font-size: 2rem;
-    border-bottom: 0.3rem solid var(--secondary-color);
+    border-bottom: 0.3rem solid;
     display: inline-block;
     padding-bottom: 0.5rem;
 }
