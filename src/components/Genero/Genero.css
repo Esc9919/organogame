@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #0f022b;
+    --secondary-color: #14003e;
+    --tertiary-color: #33046c;
+    --text-color: #e560b3;
+  }
+
+
+.genero {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--tertiary-color);
+}
+
+.genero h3 {
+    color: var(--text-color);
+    font-size: 2rem;
+    border-bottom: 0.3rem solid var(--secondary-color);
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
