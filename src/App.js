@@ -43,7 +43,7 @@ const generos = [
   return (
     <div className="App">
       <Banner />    
-      <Formulario aoJogoCadastrado={jogo => aoNovoJogoAdicionado(jogo)}/>
+      <Formulario generos={generos.map(genero => genero.nome)} aoJogoCadastrado={jogo => aoNovoJogoAdicionado(jogo)}/>
         {generos.map(generos => <Genero key={generos.nome} nome={generos.nome} corPrimaria={generos.corPrimaria} corSecundaria={generos.corSecundaria}/>)}
     </div>
   );

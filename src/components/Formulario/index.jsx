@@ -6,14 +6,6 @@ import "./Formulario.css";
 
 const Formulario = (props) => {
 
-  const generos = [
-    'Mundo Abrerto',
-    'FPS',
-    'RPG',
-    'Aventura',
-    'Esporte'
-  ]
-
   const [nome, setNome] = useState('')
   const [plataforma, setPlataforma] = useState('')
   const [imagem, setImagem] = useState('')
@@ -57,7 +49,7 @@ const Formulario = (props) => {
             <ListaSuspensa 
               obrigatorio={true} 
               label='Generos' 
-              itens={generos} 
+              itens={props.generos} 
               value={genero}
               aoAlterado={valor => setGenero(valor)}
             />

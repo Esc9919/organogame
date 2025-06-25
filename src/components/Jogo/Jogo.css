@@ -1,0 +1,38 @@
+.jogo {
+    width: 17.5rem;
+}
+
+.jogo .cabecalho {
+    background-color: #F0F0F0;
+    border-radius: 1.2rem 1.2rem 0 0;
+}
+
+.jogo img {
+    width: 6.25rem;
+    border-radius:  10%;
+    position: relative;
+    bottom: -3.125rem;
+}
+
+.jogo .rodape {
+   background-color: #FFFFFF;
+   box-shadow: .4rem .4rem 0 rgba(0, 0, 0, 0.8);
+   border-radius: 0rem 0rem 1.2rem 1.2rem;
+   padding-top: 5.625rem;
+   padding-bottom: 2.5rem;
+}
+
+.jogo .rodape h4 {
+    color: #6278F7;
+    font-size: 1.125rem;
+    line-height: 1.137rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.jogo .rodape h5 {
+    color: #212121;
+    font-size: 1.125rem;
+    line-height: 1.137rem;
+    padding: 0 1rem;
+}
